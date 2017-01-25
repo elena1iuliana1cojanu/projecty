@@ -1,0 +1,68 @@
+html,body {
+	height:100%;}
+
+h1, h2, h3, h4, h5, h6, p {
+	   margin-bottom: 20px;
+
+}
+
+
+
+
+nav {
+	position: fixed;
+	height: 75px;
+	width: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+    text-align: center;
+
+	 }
+
+nav a {
+	text-decoration:none;
+	color: #fff;
+	margin-left: 30px;
+    line-height: 50px;
+
+}
+
+div.sect {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.subSection {
+	height: 50%;
+	background-color: bisque;
+}
+
+div.sectOne {
+	background-image: url("..//image/3.jpg");
+
+}
+ .sectOne h1 {
+    padding-top: 200px;
+    padding-right: 500px;
+    font-size: 70px;
+    max-width: 600px;
+    width: 100%;
+    color: #FFF;
+    font-weight: 900px;
+    line-height: 70px;
+    text-transform: uppercase;
+    pointer-events: auto;
+    margin: auto;
+    vertical-align: middle;
+}
+
+
+div.sectTwo{
+	background-image: url("..//image/2.jpg");
+
+}
+
+div.sectThree{
+	background-image: url("..//image/1.jpg");
+}
