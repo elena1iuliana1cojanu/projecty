@@ -24,7 +24,10 @@ nav a {
 	color: #fff;
 	margin-left: 30px;
     line-height: 50px;
-
+}
+nav a:hover {
+    background-color:#7f345a;
+    background-color: rgb(255,228,196,0.5); 
 }
 
 div.sect {
@@ -66,3 +69,55 @@ div.sectTwo{
 div.sectThree{
 	background-image: url("..//image/1.jpg");
 }
+
+.about h1 {
+    padding-top: 200px;
+    padding-right: 500px;
+    font-size: 70px;
+    max-width: 600px;
+    width: 100%;
+    color: #FFF;
+    font-weight: 900px;
+    line-height: 70px;
+    text-transform: uppercase;
+    pointer-events: auto;
+    margin: auto;
+    vertical-align: middle;
+}
+
+
+div.about {
+    background-image: url("..//image/stones.jpg");
+}
+
+div.about1 {
+   background-image: url("..//image/stones1.jpg");
+}
+
+div.about2 {
+   background-image: url("..//image/stones2.jpg");
+}
+
+div.about3 {
+   background-image: url("..//image/stones3.jpg");
+}
+
+.button {
+padding: 15px 50px 15px 15px;
+color: #fff;
+text-decoration: none;
+display: inline-block;
+position: relative;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
